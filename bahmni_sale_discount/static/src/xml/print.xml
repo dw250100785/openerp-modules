@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates>
+    <div t-name="test_button" t-attf-class="base" class="oe_web_example">  
+        <p>
+            <button name="print" type="object" id="bstart">Print</button>
+            <iframe id="printBillFrame" style="display:none"/>
+        </p>
+    </div>
+
+    <div t-name="Bill" t-attf-class="base" class="oe_web_example">  
+        <p>
+            Test Bill
+        </p>
+    </div>
+</templates>
