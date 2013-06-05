@@ -14,14 +14,9 @@
                     <field name="discount_acc_id"/>
                     <field name="discount" />
                     <field name="round_off" />
-                    <field name="discount" widget="print"/>
                 </xpath>
                 <xpath expr="/form/sheet/notebook/page[1]/field[@name='invoice_line']/tree/field[@name='invoice_line_tax_id']" position="replace" >
                 </xpath>
-
-<!--                 <xpath expr="/form/header/button[@name='invoice_print']" position="replace">
-                </xpath>
- -->
             </field>
             <!--<field name="arch" type="xml">-->
                 <!--<xpath expr="/form/sheet/notebook/page[1]/group[2]" position="replace" >-->

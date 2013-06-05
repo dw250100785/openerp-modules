@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates>
+    <span t-name="test_button" t-attf-class="base" class="oe_web_example">  
+        <button name="print" type="object" id="bstart">Print</button>
+        <iframe id="printBillFrame" style="display:none"/>
+    </span>
+
+    <div t-name="Bill" t-attf-class="base" class="oe_web_example">  
+        <p>
+            <h3><t t-esc="title"/></h3>
+            <h3>Without Context</h3>
+        </p>
+    </div>
+</templates>
